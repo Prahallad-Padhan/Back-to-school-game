@@ -1,0 +1,142 @@
+* {
+    justify-items: center;
+    background-color: black;
+}
+
+.landing-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #042603;
+    background-image: url("../assets/tree.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mobile-screen {
+    width: 393px;
+    height: 852px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #042603;
+    position: relative;
+}
+
+.background {
+    flex: 1;
+    background-image: url("../assets/background.png");
+    background-color: #042603;
+    background-size: cover;
+    background-position: center;
+    opacity: 50%;
+    position: relative;
+}
+
+.fruits {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 20%;
+    width: 60%;
+    height: auto;
+    background-color: transparent;
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
+}
+
+.lives {
+    position: absolute;
+    font-size: 1.5rem;
+    margin-top: 5%;
+    margin-left: 75%;
+    background-color: aqua;
+    border-radius: 40px;
+}
+
+
+.lives.shake {
+    animation: breakHeart 0.5s ease-in-out;
+}
+
+
+.letters {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 10%;
+    background-color: transparent;
+    width: 80%;
+}
+
+.letters button {
+    width: 50px;
+    height: 60px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    background-color: #F9BD20;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    border: 3px solid white;
+}
+
+.bt-o {
+    position: relative;
+    left: 10%;
+    top: 2vh;
+}
+
+.bt-t {
+    position: relative;
+    left: 11%;
+    bottom: 15vh;
+}
+
+.bt-k {
+    position: relative;
+    left: 13%;
+    bottom: 4vh;
+}
+
+.bt-i {
+    position: relative;
+    left: 15%;
+    bottom: 14vh;
+}
+
+.bt-r {
+    position: relative;
+    left: 15%;
+    bottom: 0vh;
+}
+
+.fill-in-the-blanks {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-left: 31%;
+    margin-top: 85%;
+    background-color: transparent;
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
+}
+
+.blank {
+    margin: 0 5%;
+    padding: 5px;
+    border-bottom: 3px solid white;
+    background-color: transparent;
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
+}
+
+.wrong-choice {
+    background-color: red !important;
+    color: white;
+}

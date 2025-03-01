@@ -1,0 +1,106 @@
+* {
+    justify-items: center;
+    background-color: black;
+}
+
+.landing-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #042603;
+    background-image: url("../assets/tree.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mobile-screen {
+    width: 393px;
+    height: 852px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #042603;
+    position: relative;
+}
+
+.background {
+    flex: 1;
+    background-image: url("../assets/background.png");
+    background-color: #042603;
+    background-size: cover;
+    background-position: center;
+    opacity: 50%;
+    position: relative;
+}
+
+.bag {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 21%;
+    width: 60%;
+    height: auto;
+    background-color: transparent;
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
+}
+
+.lives {
+    position: absolute;
+    font-size: 1.5rem;
+    margin-top: 5%;
+    margin-left: 75%;
+    background-color: aqua;
+    border-radius: 40px;
+}
+
+
+.lives.shake {
+    animation: breakHeart 0.5s ease-in-out;
+}
+
+.bt-b {
+    position: absolute;
+    left: 25%;
+    bottom: 3vh;
+}
+
+.bt-a {
+    position: absolute;
+    bottom: 15vh;
+    left: 55%;
+}
+
+.bt-g {
+    position: absolute;
+    margin: 5px;
+    bottom: 4vh;
+    left: 85%
+}
+
+.fill-in-the-blanks-2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-left: 40%;
+    margin-top: 80%;
+    background-color: transparent;
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
+}
+
+.blank {
+    margin: 0 5%;
+    border-bottom: 3px solid white;
+    background-color: transparent;
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
+}
+
+.wrong-choice {
+    background-color: red !important;
+    color: white;
+}

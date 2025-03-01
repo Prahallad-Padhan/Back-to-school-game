@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Ewert&display=swap');
+
+* {
+    justify-items: center;
+}
+
+.landing-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #042603;
+    background-image: url("../assets/tree.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.mobile-screen {
+    width: 393px;
+    height: 852px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.top-half {
+    flex: 1;
+    background-image: url("../assets/bg.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.b,
+.a,
+.c,
+.k,
+.t,
+.o,
+.s,
+.c2,
+.h,
+.o2,
+.o3,
+.l {
+    position: absolute;
+    width: 11%;
+    height: auto;
+    background-color: transparent;
+}
+
+.b {
+    top: 26%;
+    left: 9.5%;
+}
+
+.a {
+    top: 34%;
+    left: 21%;
+}
+
+.c {
+    top: 30%;
+    left: 34%;
+}
+
+.k {
+    top: 33%;
+    left: 48%;
+}
+
+.t {
+    top: 33%;
+    left: 70%;
+}
+
+.o {
+    top: 29%;
+    left: 82%;
+}
+
+.s {
+    top: 50%;
+    left: 16%;
+}
+
+.c2 {
+    top: 53%;
+    left: 28%;
+}
+
+.h {
+    top: 50%;
+    left: 40%;
+}
+
+.o2 {
+    top: 52%;
+    left: 53%;
+}
+
+.o3 {
+    top: 50%;
+    left: 64%;
+}
+
+.l {
+    top: 48%;
+    left: 77%;
+}
+
+
+.bottom-half {
+    flex: 1;
+    background-color: #042603;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.play-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.monkey {
+    background-color: transparent;
+    width: 142px;
+    height: auto;
+}
+
+.play-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border: 3px solid yellow;
+    padding: 12px 25px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.letter {
+    font-family: "Ewert", cursive, sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    margin: 0 3px;
+    background-color: white;
+}
+
+.P {
+    color: #EC171E;
+}
+
+.L {
+    color: #FFCA3E;
+}
+
+.A {
+    color: #5A55F9;
+}
+
+.Y {
+    color: #20D720;
+}
